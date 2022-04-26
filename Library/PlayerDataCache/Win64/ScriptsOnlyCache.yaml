@@ -19,7 +19,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -86,13 +85,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2062}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2296}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 3144}
+      Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 5464}
+      Script: {instanceID: 5462}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -165,33 +164,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1952}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2296}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3144}
+      Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 3396}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 4328}
+      Script: {instanceID: 4326}
     - Class: 114
-      Script: {instanceID: 4508}
+      Script: {instanceID: 4506}
     - Class: 114
-      Script: {instanceID: 4706}
+      Script: {instanceID: 4704}
     - Class: 114
-      Script: {instanceID: 4712}
+      Script: {instanceID: 4710}
     - Class: 114
-      Script: {instanceID: 4962}
+      Script: {instanceID: 4960}
     - Class: 114
-      Script: {instanceID: 5464}
+      Script: {instanceID: 5462}
     - Class: 114
-      Script: {instanceID: 5692}
+      Script: {instanceID: 5690}
     - Class: 114
-      Script: {instanceID: 5930}
+      Script: {instanceID: 5928}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -256,17 +255,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2296}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3144}
+      Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 3396}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 3622}
+      Script: {instanceID: 3620}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -325,35 +324,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1872}
     - Class: 114
-      Script: {instanceID: 2194}
+      Script: {instanceID: 2192}
     - Class: 114
-      Script: {instanceID: 2290}
+      Script: {instanceID: 2288}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 2916}
     - Class: 114
-      Script: {instanceID: 2954}
+      Script: {instanceID: 2952}
     - Class: 114
-      Script: {instanceID: 3144}
+      Script: {instanceID: 3142}
     - Class: 114
-      Script: {instanceID: 3396}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3406}
     - Class: 114
-      Script: {instanceID: 3526}
+      Script: {instanceID: 3524}
     - Class: 114
-      Script: {instanceID: 4602}
+      Script: {instanceID: 4600}
     - Class: 114
-      Script: {instanceID: 4788}
+      Script: {instanceID: 4786}
     - Class: 114
-      Script: {instanceID: 4812}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 4950}
+      Script: {instanceID: 4948}
     - Class: 114
-      Script: {instanceID: 5354}
+      Script: {instanceID: 5352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -499,12 +498,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FinalSceneManager
-  - hash:
-      serializedVersion: 2
-      Hash: 65b5505de553c2684b30bd61e45295ee
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Obstacle
   - hash:
       serializedVersion: 2
       Hash: e3643e066ec5e6f46c12205726dc97bd

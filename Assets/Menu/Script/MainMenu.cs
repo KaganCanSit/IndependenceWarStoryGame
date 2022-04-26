@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,14 +19,14 @@ public class MainMenu : MonoBehaviour
             lang = "en";
             Debug.Log("English");
             ChangeTextLang("PLAY GAME","SELECT GAME","OPTION","ABOUT","QUIT",
-                           "VOLUME","LANGUAGE","DIFFUCULTY","RETURN MENU", "Story of War of Independence", "This game was made by Ömer Faruk Yılmaz and Kağan Can Şit to enable children to realize our historical values and to keep our values of the War of Independence alive.\n\n It is forbidden to copy, distribute and sell without any commercial goal and direction. It is forward-looking and open to development for us. It will continue as a project.\n\nWe leave our Github accounts below for those who want to contribute and help us learn in this direction.\n\nhttps://github.com/OmerFarukYilmaz-github\nhttps://github.com/KaganCanSit\n\n\n Thank you in advance.", "RETURN MENU");
+                           "VOLUME","LANGUAGE","DIFFUCULTY","RETURN MENU", "Story of War of Independence", "This game was made by Ã–mer Faruk YÄ±lmaz and KaÄŸan Can Åit to enable children to realize our historical values and to keep our values of the War of Independence alive.\n\n It is forbidden to copy, distribute and sell without any commercial goal and direction. It is forward-looking and open to development for us. It will continue as a project.\n\nWe leave our Github accounts below for those who want to contribute and help us learn in this direction.\n\nhttps://github.com/OmerFarukYilmaz-github\nhttps://github.com/KaganCanSit\n\n\n Thank you in advance.", "RETURN MENU");
         }
         else if(val == 2)
         {
             lang = "tr";
             Debug.Log("Turkce");
             ChangeTextLang("OYUNU OYNA", "OYUN SEC", "SECENEKLER", "HAKKINDA", "CIKIS",
-                           "SES", "DIL", "ZORLUK", "MENUYE DON", "Kurtuluş Savaşı Hikayeleri", "Bu oyun Ömer Faruk Yılmaz ve Kağan Can Şit tarafından çocukların tarihi değerlerimizi fark etmesini sağlamak ve Kurtuluş Savaşı değerlerimizi yaşatmak adına yapılmıştır.\n\nHiç bir ticari hedef ve doğrultusu olmamak ile birlikte izinsiz şekilde kopyalanması, dağıtılması ve satışa sunulması yasaktır.Bizler için ileriye dönük ve geliştirmeye açık bir proje olarak yerine sürdürmeye devam edicektir.\nBu doğrultuda katkıda bulunmak ve öğrenmemize yardım etmek isteyenlerin Github hesaplarımızı aşağıya bırakıyoruz.\n\nhttps://github.com/OmerFarukYilmaz-github\nhttps://github.com/KaganCanSit\n\n\nŞimdiden teşekkür ederiz.", "MENUYE DON");
+                           "SES", "DIL", "ZORLUK", "MENUYE DON", "KurtuluÅŸ SavaÅŸÄ± Hikayeleri", "Bu oyun Ã–mer Faruk YÄ±lmaz ve KaÄŸan Can Åit tarafÄ±ndan Ã§ocuklarÄ±n tarihi deÄŸerlerimizi fark etmesini saÄŸlamak ve KurtuluÅŸ SavaÅŸÄ± deÄŸerlerimizi yaÃ¾atmak adÄ±na yapÄ±lmÄ±ÅŸtÄ±r.\n\nHiÃ§ bir ticari hedef ve doÃ°rultusu olmamak ile birlikte izinsiz Ã¾ekilde kopyalanmasÄ±, daÄŸÄ±tÄ±lmasÄ± ve satÄ±ÅŸa sunulmasÄ± yasaktÄ±r.Bizler iÃ§in ileriye dÃ¶nÃ¼k ve geliÅŸtirmeye aÃ§Ä±k bir proje olarak yerine sÃ¼rdÃ¼rmeye devam edicektir.\nBu doÃ°rultuda katkÄ±da bulunmak ve Ã¶ÄŸrenmemize yardÄ±m etmek isteyenlerin Github hesaplarÄ±mÄ±zÄ± aÅŸaÄŸÄ±ya bÄ±rakÄ±yoruz.\n\nhttps://github.com/OmerFarukYilmaz-github\nhttps://github.com/KaganCanSit\n\n\nÃimdiden teÃ¾ekkÃ¼r ederiz.", "MENUYE DON");
         }
     }
 
@@ -49,14 +49,14 @@ public class MainMenu : MonoBehaviour
 
     }
 
-    //Oyun sahnesine menu üzerinden geçi?
+    //Oyun sahnesine menu Ã¼zerinden gecis
     public void PlayGame()
     {
         SceneManager.LoadScene(1);
     }
     public void QuitGame ()
     {
-        //Log att?rarak ç?k?? i?leminin oldu?una dair bilgi veriyoruz.
+        //Log attirarak cikis isleminin olduguna dair bilgi veriyoruz.
         Debug.Log("Now Quit The Game!");
         Application.Quit();
     }
