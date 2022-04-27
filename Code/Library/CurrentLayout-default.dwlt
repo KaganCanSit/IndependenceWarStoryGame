@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 91
+  controlID: 35
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 92
+  controlID: 36
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 93
+  controlID: 37
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 322
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -339,7 +339,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -398,9 +398,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 724a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 06baffff20baffff96bbffff62bfffff08c1ffff18c1ffff26c2ffffb4c3ffff42c5ffff5cc5ffffd6c6ffffa6caffffb0caffffd4caffff98cbffffb2cbffff2ccdfffffcd0ffff06d1ffff2ad1ffff64d2ffff7ed2fffff8d3ffffc8d7ffffd2d7fffff6d7ffff6ad9ffff84d9fffffadaffffc6deffffccdeffffecdeffff98e3ffff34f0ffff64fbffff
+      m_ExpandedIDs: 64fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 1.1740849, y: -2.1954744, z: -272.4221}
     speed: 2
-    m_Value: {x: 1.0498936, y: -2.1509807, z: -272.39447}
+    m_Value: {x: 1.1740849, y: -2.1954744, z: -272.4221}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -515,7 +515,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 6.4151936
     speed: 2
-    m_Value: 6.1389413
+    m_Value: 6.4151936
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -603,22 +603,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Menu
+    - Assets/GamePlay/Game/Texture
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 58
   m_LastFolders:
-  - Assets/Menu
+  - Assets/GamePlay/Game/Texture
   m_LastFoldersGridSize: 58
-  m_LastProjectPath: C:\Users\kagan\Desktop\KurtulusWarStoryGame
+  m_LastProjectPath: C:\Users\kagan\Desktop\KurtulusWarStoryGame\Code
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 58460000
-    m_LastClickedID: 18008
-    m_ExpandedIDs: 00000000564600005c460000
+    scrollPos: {x: 0, y: 43}
+    m_SelectedIDs: 72460000
+    m_LastClickedID: 18034
+    m_ExpandedIDs: 0000000056460000584600005a46000070460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -646,7 +646,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005646000058460000
+    m_ExpandedIDs: 0000000056460000584600005a460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
